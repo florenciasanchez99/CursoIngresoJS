@@ -4,10 +4,16 @@
 */
 function mostrar()
 {
+
+//DECLARO VARIABLES.
 var nombre;
 
+
+//MUESTRO POR PROMPT EL MENSAJE.
 nombre=prompt("Ingrese su nombre");
 
+
+//MUESTRO POR ID EL MENSAJE Y LO VALIDO 
 document.getElementById("elNombre").value=nombre;
 
 }

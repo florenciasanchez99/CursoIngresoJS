@@ -10,6 +10,7 @@ function sumar()
 
     var suma;
 
+   //TOMO LOS NUMEROS POR ID Y LUEGO LOS TRANSFORMO A ENTEROS CON PARSEINT.
    num1= document.getElementById("numeroUno").value;
 
    num2=document.getElementById("numeroDos").value;
@@ -18,11 +19,13 @@ function sumar()
 
    num2= parseInt(num2);
 
+  //SUMO LOS NUMEROS.
    suma= num1 + num2;
 
+   //MUESTRO POR ALERT EL MENSAJE + SUMA.
    alert("La suma es " + suma);
 
-
+   //LUEGO REALIZO LOS MISMOS PASOS EN LAS SIGUIENTES FUNCIONES:
 }
 
 function restar()
@@ -34,7 +37,8 @@ function restar()
 
     var resta;
     
-
+    
+    //TOMO LOS NUMEROS POR ID Y LUEGO LOS TRANSFORMO A ENTEROS CON PARSEINT.
     num1=document.getElementById("numeroUno").value;
 
     num2=document.getElementById("numeroDos").value;
@@ -57,6 +61,7 @@ function multiplicar()
 
     var multiplicacion;
 
+    //TOMO LOS NUMEROS POR ID Y LUEGO LOS TRANSFORMO A ENTEROS CON PARSEINT.
     num1= document.getElementById("numeroUno").value;
 
     num2= document.getElementById("numeroDos").value;
@@ -80,6 +85,8 @@ var num2;
 
 var division;
 
+
+//TOMO LOS NUMEROS POR ID Y LUEGO LOS TRANSFORMO A ENTEROS CON PARSEINT.
 num1= document.getElementById("numeroUno").value;
 
 num2=document.getElementById("numeroDos").value;
