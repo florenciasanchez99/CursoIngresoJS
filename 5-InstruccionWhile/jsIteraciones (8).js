@@ -5,8 +5,17 @@ function mostrar()
 	var positivo=0;
 	var negativo=1;
 	
-	var respuesta='si';
+	var respuesta="si";
 
+	do
+	{
+   
+
+  positivo=parseInt(prompt)
+
+	}
+   
+	while(respuesta=="si")
 
 document.getElementById("suma").value=positivo;
 document.getElementById("producto").value=negativo;
